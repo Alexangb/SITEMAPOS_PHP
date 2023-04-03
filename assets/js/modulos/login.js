@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
       elemen.open("POST", url, true);
       //enviar datos
       elemen.send(data);
-      //cerificar estados
+      //verificar estados
       elemen.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
           const res = JSON.parse(this.responseText);

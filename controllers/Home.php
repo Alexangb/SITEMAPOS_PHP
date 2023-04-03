@@ -9,6 +9,7 @@
     public function index(){
       
         $data['title']='Iniciar Sesion';
+      
         $this->views1->getView('principal','Login',$data);
        
     }

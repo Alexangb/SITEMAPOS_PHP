@@ -8,7 +8,7 @@
     
     public function index(){
       $data['title']='Panel Administrativo';
-      
+      $data['script']='index.js';
        $this->views1->getView('admin','home',$data);
        
     }
